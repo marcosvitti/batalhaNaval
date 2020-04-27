@@ -28,11 +28,11 @@ public class BatalhaNaval {
         System.out.println();
 
         posicionaBarcoUser(navios1, navios2);
-        /*iniciaNaviosMaq(navios);
+        iniciaNaviosMaq(navios);
 
         System.out.println();
 
-        do {
+        /*do {
             mostraTabuleiro(tabuleiroPlayer, tabuleiroComp);
 
             darTiro(tiro, 0, 0);
@@ -363,7 +363,7 @@ public class BatalhaNaval {
             }
         }
 
-        //System.out.println( (x + 1) + " == " + x2 + " \t " + (x - 1) + " == " + x2 + " \t " + (y + 1) + " == " + y2 + " \t " + (y - 1) + " == " + y2);
+        System.out.println( (x + 1) + " == " + x2 + " \t " + (x - 1) + " == " + x2 + " \t " + (y + 1) + " == " + y2 + " \t " + (y - 1) + " == " + y2);
         return !((x + 1) == x2 || (x - 1) == x2) && ((y + 1) == y2 || (y - 1) == y2);
     }
 
